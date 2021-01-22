@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  font-family: 'Poppins', sans-serif;
+  margin: 0 auto;
+}
+/* impostazioni bottoni */
+.button {
+  padding: 10px 20px;
+  border: 2px solid #FF7F50;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #FF7F50;
+}
+.button_orange {
+  background-color: #FF7F50;
+  color: white;
+}
+
+.blind::after {
+  content: ' \2228';
+  font-size: 20px;
+}
+
+header {
+
+}
+nav {
+  height: 13vh;
+  background-color: #fff;
+  border-bottom: 2px solid black;
+}
+/* impostazioni barra fissa in alto */
+.nav_bar{
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+  line-height: 13vh;
+  vertical-align: middle;
+}
+.nav_left {
+  position: absolute;
+  left: 0;
+}
+.nav_left h5{
+   display: inline-block;
+}
+h5 span {
+  padding: 0 5px;
+  border-right: 2px solid grey;
+  padding: 0 20px;
+}
+.nav_left .contact {
+  padding: 0 20px;
+}
+.nav_right {
+  position: absolute;
+  right: 0;
+}
+/* impostazioni menu header */
+.menu {
+  height: 10vh;
+  width: 80%;
+  margin: 0 auto;
+  line-height: 10vh;
+  vertical-align: middle;
+}
+.menu img {
+  float: left;
+  padding-top: 20px;
+}
+.menu ul {
+  float: right;
+}
+.menu li {
+  display: inline-block;
+  padding: 0 5px;
+}
+/* impostazioni testo su sfondo */
+.banner {
+  height: 90vh;
+  background-color: #fff2ee;
+  position: relative;
+  background-image: url("../img/jumbotron.png");
+  background-position: 100% 100%;
+  background-size: cover;
+}
+.banner .banner_text {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  width: 40%;
+}
+.banner_text h1 {
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+.banner_text .button_banner {
+  margin: 40px 0;
+}
+
+.blocco {
+  height: 30vh;
+}
