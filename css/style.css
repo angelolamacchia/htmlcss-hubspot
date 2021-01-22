@@ -20,28 +20,28 @@
   background-color: #FF7F50;
   color: white;
 }
-
+/* freccia tendine */
 .blind::after {
   content: ' \2228';
   font-size: 20px;
 }
 
-nav {
-  height: 13vh;
-  background-color: #fff;
-  border-bottom: 2px solid black;
-}
 /* impostazioni barra fissa in alto */
 .nav_bar{
-  width: 80%;
+  position: fixed;
+  top: 0;
   margin: 0 auto;
-  position: relative;
+  height: 13vh;
+  width: 100%;
+  border-bottom: 2px solid black;
   line-height: 13vh;
   vertical-align: middle;
+  z-index: 1;
+  background-color: white;
 }
 .nav_left {
-  position: absolute;
-  left: 0;
+  float: left;
+  margin-left: 10%;
 }
 .nav_left h5{
    display: inline-block;
@@ -55,14 +55,15 @@ h5 span {
   padding: 0 20px;
 }
 .nav_right {
-  position: absolute;
-  right: 0;
+  float: right;
+  margin-right: 10%;
 }
 /* impostazioni menu header */
 .menu {
   height: 10vh;
   width: 80%;
   margin: 0 auto;
+  margin-top: 13vh;
   line-height: 10vh;
   vertical-align: middle;
 }
