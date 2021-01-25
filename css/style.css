@@ -20,6 +20,12 @@
   display: table;
   clear: both;
 }
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
 
 /* impostazioni bottoni */
 .button {
@@ -262,6 +268,7 @@ main {
 /* impostazioni section 3 top */
 .sec3_top {
   width: 70%;
+  padding-top: 50px;
 }
 .sec3_top .col_left {
   width: 30%;
@@ -286,8 +293,9 @@ main {
 }
 /* impostazioni section 3 bottom */
 .sec3_bottom {
-  width: 80%;
+  width: 85%;
   margin-top: 50px;
+  margin-bottom: 50px;
 }
 .sec3_bottom .col_left {
   float: left;
@@ -309,4 +317,72 @@ main {
 }
 #text_little {
   font-size: 13px;
+}
+
+/* impostazioni footer */
+footer {
+  background-color: #33475b;
+  font-size: 13px;
+}
+.footer_cont {
+  width: 80%;
+}
+.footer_col h3 {
+  color: white;
+  margin: 20px 0;
+}
+.footer_top li {
+  margin: 10px 0;
+}
+.footer_top a {
+  color: lightgrey;
+}
+.footer_col {
+  float: left;
+  width: 25%;
+}
+.footer_col .button {
+  color: black;
+  background-color: lightgrey;
+  border: 1px solid black;
+}
+.contact_button {
+  margin: 20px 0;
+}
+.contact_button a {
+  padding: 10px;
+}
+.logos_row {
+  width: 100%;
+}
+.logos_row div {
+  width: 13%;
+  display: inline-block;
+}
+/* impostazioni footer bottom */
+.footer_bottom {
+  width: 100%;
+  color: lightgrey;
+  padding: 20px 0;
+}
+.footer_bottom a {
+  color: lightgrey;
+}
+.footer_bottom .language {
+  display: inline-block;
+  margin: 10px 20px;
+}
+.credits {
+  padding: 20px 0;
+}
+.copyright {
+  float: left;
+  text-align: left;
+}
+.policy {
+  float: right;
+  text-align: right;
+}
+.policy .language {
+  margin: 0 0 0 10px;
 }
