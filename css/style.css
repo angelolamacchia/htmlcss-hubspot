@@ -183,7 +183,7 @@ main {
 .big_col {
   width: 70%;
   float: left;
-  padding: 5% 10% 10% 5%;
+  padding: 5% 10% 12% 5%;
   text-align: left;
 }
 /* impostazioni selection 1 bottom */
@@ -224,3 +224,33 @@ main {
 }
 
 /* impostazioni section 2 */
+.section2 {
+  background: linear-gradient(#00a4bd, #00bda5);
+  margin: 3% 0;
+  color: white;
+  padding: 5% 10%;
+}
+.row {
+  width: 100%;
+}
+.box {
+  width: 25%;
+  float: left;
+  padding: 10px 0;
+}
+.box h2 {
+  font-size: 30px;
+}
+.box h2 span {
+  font-size: 20px;
+  font-weight: lighter;
+  line-height: 30px;
+  vertical-align: middle;
+}
+.row1 {
+  margin-top: 30px;
+  border-bottom: 1px solid white;
+}
+.border_right {
+  border-right: 1px solid white;
+}
