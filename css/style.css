@@ -25,6 +25,7 @@ li {
 }
 a {
   text-decoration: none;
+  color: black;
 }
 
 /* impostazioni bottoni */
@@ -35,9 +36,15 @@ a {
   text-decoration: none;
   color: #FF7F50;
 }
+.button:hover {
+  background-color: #ffece5;
+}
 .button_orange {
   background-color: #FF7F50;
   color: white;
+}
+.button_orange:hover {
+  background-color: #fb9672;
 }
 .button_big {
   padding: 20px;
@@ -137,7 +144,7 @@ h5 span {
 
 /* impostazioni main */
 main {
-  background-color: lightgrey;
+  background-color: #f5f8fa;
 }
 
 /*impostazioni section 1 top*/
@@ -159,7 +166,9 @@ main {
   border-radius: 10px;
   margin-top: 50px;
   margin-bottom: 50px;
-  box-shadow: 0 0 11px #eaf0f6;
+}
+.sec1_middle:hover {
+  box-shadow: 0 0 20px 6px #9daebf;
 }
 .big_col h3 {
   display: inline-block;
@@ -195,14 +204,16 @@ main {
 .sec1_bottom {
   width: 80%;
 }
-.col {
+.sec1_bottom .col {
   width: 30%;
   float: left;
   background-color: white;
   float: left;
   border-radius: 10px;
   padding: 0 20px 50px 20px;
-  box-shadow: 0 0 11px #eaf0f6;
+}
+.sec1_bottom .col:hover {
+  box-shadow: 0 0 20px 6px #9daebf;
 }
 .col hr {
   margin: 40px 30px;
@@ -349,19 +360,21 @@ footer {
 .contact_button {
   margin: 20px 0;
 }
+.contact_button:hover a {
+  background-color: grey;
+}
 .contact_button a {
   padding: 10px;
-}
-.logos_row {
-  width: 100%;
 }
 .logos_row div {
   width: 13%;
   display: inline-block;
 }
+.logos_row div:hover i {
+  color: lightblue;
+}
 /* impostazioni footer bottom */
 .footer_bottom {
-  width: 100%;
   color: lightgrey;
   padding: 20px 0;
 }
