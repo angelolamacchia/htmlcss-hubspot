@@ -145,15 +145,14 @@ main {
   object-fit: cover;
   object-position: top;
   width: 70%;
-  height: 40vh;
 }
 /* impostazioni section 1 middle */
 .sec1_middle {
   width: 80%;
-  height: 45vh;
   background-color: white;
   border-radius: 10px;
   margin-top: 50px;
+  margin-bottom: 50px;
   box-shadow: 0 0 11px #eaf0f6;
 }
 .big_col h3 {
@@ -161,7 +160,7 @@ main {
   margin: 20px 0;
 }
 .big_col hr {
-  width: 400px;
+  width: 60%;
   display: inline-block;
   margin-bottom: 8px;
   margin-left: 50px;
@@ -226,7 +225,7 @@ main {
 /* impostazioni section 2 */
 .section2 {
   background: linear-gradient(#00a4bd, #00bda5);
-  margin: 3% 0;
+  margin-top: 3%;
   color: white;
   padding: 5% 10%;
 }
@@ -253,4 +252,61 @@ main {
 }
 .border_right {
   border-right: 1px solid white;
+}
+
+/* impostazioni section 3 */
+.section3 {
+  background-color: white;
+  padding: 0 3%;
+}
+/* impostazioni section 3 top */
+.sec3_top {
+  width: 70%;
+}
+.sec3_top .col_left {
+  width: 30%;
+  float: left;
+}
+.sec3_top .col_left h2 {
+  font-size: 40px;
+  color: #11114a;
+}
+.sec3_top .col_left p {
+  width: 80%;
+}
+.sec3_top .col_right {
+  width: 70%;
+  float: left;
+}
+.sec3_top .col_right .box {
+  width: 25%;
+}
+.sec3_top .col_right img {
+  width: 70%;
+}
+/* impostazioni section 3 bottom */
+.sec3_bottom {
+  width: 80%;
+  margin-top: 50px;
+}
+.sec3_bottom .col_left {
+  float: left;
+  width: 40%;
+}
+.sec3_bottom .col_left h2 {
+  margin: 40px 0 20px 0;
+  font-size: 30px;
+}
+.sec3_bottom .col_left p {
+  margin: 40px 0;
+}
+.sec3_bottom .col_right {
+  float: right;
+  width: 30%;
+}
+.sec3_bottom .col_right img {
+  width: 100%;
+}
+#text_little {
+  font-size: 13px;
 }
