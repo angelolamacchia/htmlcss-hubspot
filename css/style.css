@@ -146,7 +146,6 @@ h5 span {
 main {
   background-color: #f5f8fa;
 }
-
 /*impostazioni section 1 top*/
 .sec1_top {
   width: 60%;
@@ -238,7 +237,6 @@ main {
 .bottom_col ul {
   padding-bottom: 40px;
 }
-
 /* impostazioni section 2 */
 .section2 {
   background: linear-gradient(#00a4bd, #00bda5);
@@ -270,7 +268,6 @@ main {
 .border_right {
   border-right: 1px solid white;
 }
-
 /* impostazioni section 3 */
 .section3 {
   background-color: white;
@@ -370,7 +367,7 @@ footer {
   width: 13%;
   display: inline-block;
 }
-.logos_row div:hover i {
+.footer_cont a:hover:not(.contact_button .button) {
   color: lightblue;
 }
 /* impostazioni footer bottom */
