@@ -196,7 +196,7 @@ main {
 .big_col {
   width: 70%;
   float: left;
-  padding: 5% 10% 12% 5%;
+  padding: 5% 10% 10% 5%;
   text-align: left;
 }
 /* impostazioni selection 1 bottom */
@@ -293,8 +293,14 @@ main {
   width: 70%;
   float: left;
 }
+.sec3_top .col_right .row {
+  height: 50px;
+  line-height: 50px;
+  vertical-align: middle;
+}
 .sec3_top .col_right .box {
   width: 25%;
+
 }
 .sec3_top .col_right img {
   width: 70%;
